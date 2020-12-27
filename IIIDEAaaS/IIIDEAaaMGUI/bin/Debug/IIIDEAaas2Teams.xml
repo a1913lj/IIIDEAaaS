@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IIIDEAaas2Teams
+</name>
+</assembly>
+<members>
+<member name="T:IIIDEAaas2Teams.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:IIIDEAaas2Teams.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:IIIDEAaas2Teams.My.Resources.Resources.Culture">
+<summary>
+  すべてについて、現在のスレッドの CurrentUICulture プロパティをオーバーライドします
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="T:IIIDEAaas2Teams.clsHerrmann">
+ <summary>
+ 技術的これはA象限に属する描写語です。A象限では、論理的でシステマチックな知的処理が行われ、事実や数字、統計など目に見えるものを重視します。また、データの裏付けがあり、先例のある結論を好みます。
+緻密なこれはB象限に属する描写語です。B象限では、実践や手続きを重視し、能率や秩序、規律への傾向を表し、課題をシステマチックに順序立てて処理完遂します。時間は有効的に管理されます。
+友好的これはC象限に属する描写語です。C象限では、ムード、雰囲気、態度を重視し、感受性があり、受容的です。人間に関心が高く、自己表現が上手です。
+概念的これはD象限に属する描写語です。D象限では、メンタルなインプットを同時にすばやく関連付けることができ、抽象的な概念を心地よく感じます。また、問'''題解決には初めから全体的なアプローチをとります。
+ 
+ </summary>
+</member>
+<member name="T:IIIDEAaas2Teams.FormIIIDEAaaSTeams">
+ <summary>
+ チーム分け処理メイン画面
+ </summary>
+</member>
+<member name="M:IIIDEAaas2Teams.FormIIIDEAaaSTeams.ReadHerrman(System.String)">
+ <summary>
+ ハンマーモデル結果
+ </summary>
+ <param name="fn">ハンマーモデル結果</param>
+ <returns>メンバー個々情報</returns>
+ 
+</member>
+<member name="M:IIIDEAaas2Teams.FormIIIDEAaaSTeams.GetData(System.String,System.String)">
+ <summary>
+ レーターチャット用レコード取得
+ </summary>
+ <param name="strGrp"></param>
+ <param name="strUser"></param>
+ <returns>DataSet情報</returns>
+ 
+</member>
+<member name="M:IIIDEAaas2Teams.FormIIIDEAaaSTeams.Chart(System.Boolean)">
+ <summary>
+ レーターチャット描画
+ </summary>
+ <param name="bSave">画像ファイルとして保存有無フラグ</param>
+ 
+</member>
+<member name="M:IIIDEAaas2Teams.FormIIIDEAaaSTeams.Button2_Click(System.Object,System.EventArgs)">
+ <summary>
+ チーム情報基、チーム分け＆レーターチャット描画
+ 処理中表示する為、バックグラウンド処理変更
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:IIIDEAaas2Teams.FormIIIDEAaaSTeams.MakeTeamHtml(System.Boolean)">
+ <summary>
+ レーターチャットの結果をHTML表示
+ </summary>
+ <param name="bShow">HTML表示有無</param>
+ 
+</member>
+</members>
+</doc>

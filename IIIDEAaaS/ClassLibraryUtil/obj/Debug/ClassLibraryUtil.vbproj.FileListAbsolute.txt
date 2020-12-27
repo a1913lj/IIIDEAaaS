@@ -1,0 +1,11 @@
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\bin\Debug\ClassLibraryUtil.dll
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\bin\Debug\ClassLibraryUtil.pdb
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\bin\Debug\ClassLibraryUtil.xml
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.Resources.resources
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.vbproj.GenerateResource.cache
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.vbproj.CoreCompileInputs.cache
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.dll
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.xml
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.pdb
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.FormDetail.resources
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.vbprojAssemblyReference.cache

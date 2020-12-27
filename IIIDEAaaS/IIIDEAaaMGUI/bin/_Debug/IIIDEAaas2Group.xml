@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IIIDEAaas2Group
+</name>
+</assembly>
+<members>
+<member name="T:IIIDEAaas2Group.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:IIIDEAaas2Group.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:IIIDEAaas2Group.My.Resources.Resources.Culture">
+<summary>
+  すべてについて、現在のスレッドの CurrentUICulture プロパティをオーバーライドします
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Enable(System.Boolean,System.Windows.Forms.Control[]@)">
+ <summary>
+ ボタンの活性化
+ </summary>
+ <param name="bEnable"></param>
+ <param name="objs"></param>
+ 
+</member>
+<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.RdPptx(System.String)">
+ <summary>
+ ボタンの活性化
+ </summary>
+ <param name="fn"></param>
+ <returns>PPTXの入力情報</returns>
+</member>
+<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Detail(System.Object,System.String)">
+ <summary>
+ ログ出力
+ </summary>
+ <param name="sender"></param>
+ <param name="strText"></param>
+ 
+</member>
+<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Detail(System.String)">
+ <summary>
+ ログ出力
+ </summary>
+ <param name="strText"></param>
+ 
+</member>
+<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.CreateElement(System.Xml.XmlDocument,System.Collections.Generic.KeyValuePair{System.String,System.String})">
+ <summary>
+ XMLエレメント作成
+ </summary>
+ <param name="xmlDocument"></param>
+ <param name="key"></param>
+ <returns>XmlElement</returns>
+</member>
+<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.CreateElement(System.Xml.XmlDocument,System.String,System.String)">
+ <summary>
+ XMLエレメント作成
+ </summary>
+ <param name="xmlDocument"></param>
+ <param name="strName"></param>
+ <param name="strValue"></param>
+ <returns>XmlElement</returns>
+</member>
+<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.GetClusterFileName(System.String)">
+ <summary>
+ XMLエレメント作成
+ </summary>
+ <param name="strExtension"></param>
+ <returns>ファイル名を返す</returns>
+</member>
+<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Rectangle2Text(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}})">
+ <summary>
+ >PPTXのテキストボックスの情報を文字列生成、クラスリング用
+ </summary>
+ <param name="dic"></param>
+ <returns>PPTXのテキストボックスの情報を文字列を返す</returns>
+</member>
+<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Rectangle2Xml(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}})">
+ <summary>
+ >PPTXのテキストボックスの情報を文字列生成、クラスリング用
+ </summary>
+ <param name="dic"></param>
+ <returns>PPTXのテキストボックスの情報を文字列を返す</returns>
+</member>
+</members>
+</doc>

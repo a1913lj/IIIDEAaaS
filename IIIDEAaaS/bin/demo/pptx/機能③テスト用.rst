@@ -1,0 +1,28 @@
+SlideNo.,ClusterNo.,IndexNo.,ShapeObjectType,Text
+1,0,6,Google Shape;90;p1,逆アイデアから攻める
+1,0,13,Google Shape;97;p1,あなたのアイデアをまとめます
+1,0,16,Google Shape;100;p1,アイデア発想から収束を経て解決策設定まで一気通貫で取りくみたい
+1,0,25,Google Shape;109;p1,世の中に数少ない
+1,1,2,Google Shape;86;p1,アイデアを一気通貫する
+1,1,3,Google Shape;87;p1,アイデア 収束 評価基準
+1,1,11,Google Shape;95;p1,アイデアのデパート
+1,1,17,Google Shape;101;p1,NetLogoをシミュレー ションする
+1,1,24,Google Shape;108;p1,PDCAをはじめよう
+1,2,8,Google Shape;92;p1,iTPS (Idea Total solution package)
+1,2,9,Google Shape;93;p1,Idea Instituteを挑戦する
+1,3,0,Google Shape;84;p1,アクティブラーニングツールとしてのアイデア発散・収束ソリューションの提案を行う
+1,3,4,Google Shape;88;p1,みんな諸葛孔明になるつもりです
+1,3,5,Google Shape;89;p1,アイデアを実験しよう
+1,3,7,Google Shape;91;p1,ブレーンストーミングができるってことなのか？
+1,3,10,Google Shape;94;p1,ideation for problem solver
+1,3,18,Google Shape;102;p1,アイデアをアウトプットする
+1,3,23,Google Shape;107;p1,2つのアイデアを融合する
+1,4,1,Google Shape;85;p1,SMART Ideationを構築する
+1,4,12,Google Shape;96;p1,SMART IDEAを実現する
+1,4,14,Google Shape;98;p1,智謀が沢山湧く
+1,4,19,Google Shape;103;p1, アイデア研究所を発展させましょう
+1,4,20,Google Shape;104;p1,アイデアを発想する
+1,4,21,Google Shape;105;p1,アイデア無双を具現化する
+1,5,15,Google Shape;99;p1,2020 アットアイデア、全員集合して良い案をだしましょう
+1,5,22,Google Shape;106;p1,あなたのアイデア を収束解決します！
+1,5,26,Google Shape;110;p1,初心者でも使える簡単なアイデアソリューションを使えるようなツールがほしい

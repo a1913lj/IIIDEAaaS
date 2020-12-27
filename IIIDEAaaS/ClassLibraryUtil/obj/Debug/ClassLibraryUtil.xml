@@ -1,0 +1,187 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ClassLibraryUtil
+</name>
+</assembly>
+<members>
+<member name="T:ClassLibraryUtil.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ClassLibraryUtil.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ClassLibraryUtil.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ClassLibraryUtil.clsCluster">
+ <summary>
+ グルーピング
+ </summary>
+</member>
+<member name="T:ClassLibraryUtil.clsCluster.clsShape">
+ <summary>
+ MS POWERPOINT SHPE情報
+ </summary>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsCluster.Clutser(System.String)">
+ <summary>
+ クラスタリングPyhtoのNLP処理処理結果を一覧を返す
+ </summary>
+ <param name="fn">NLP処理結果ファイルパス</param>
+ <returns>クラスタ一覧を返す</returns>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsCluster.Clutser(System.Boolean)">
+ <summary>
+ クラスタリングPyhtoのNLP処理処理結果を一覧を返す
+ </summary>
+ <param name="bXmlFile">NLP処理結果ファイルパス</param>
+ <returns>クラスタ一覧を返す</returns>
+ 
+</member>
+<member name="T:ClassLibraryUtil.clsCallPython">
+ <summary>
+ Python呼び出す制御
+ </summary>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsCallPython.#ctor">
+ <summary>
+ コンストラクター
+ </summary>
+</member>
+<member name="M:ClassLibraryUtil.clsCallPython.callExecute(System.String,System.Collections.Generic.List{System.String})">
+ <summary>
+ プロセス実行ルーチン、実行結果のリダイレクト情報を返す
+ </summary>
+ <param name="pythonFilePath">Pythonスクリプトファイル</param>
+ <param name="param">スクリプト引数</param>
+ <returns></returns>
+ 
+</member>
+<member name="F:ClassLibraryUtil.clsLabeling.m_py">
+ <summary>
+ ラベリングクラスメソッド
+ </summary>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsLabeling.#ctor(System.String,System.String,System.String)">
+ <summary>
+ コンストラクタ
+ </summary>
+ <param name="fn">グルーピングの処理結果</param>
+ <param name="py">ラベリングのＰｙｔｈｏｎコード</param>
+ <param name="strCategory">ＮＬＰラベリング：MeCab/Janome</param>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsLabeling.Labeling(System.String)">
+ <summary>
+ ラベリングクラスメソッド
+ NLP処理リダイレクト情報を返す
+ </summary>
+ <param name="rst"></param>
+ <returns>NLPの処理結果を返す</returns>
+ 
+</member>
+<member name="T:ClassLibraryUtil.clsUtil">
+ <summary>
+ ユーティリティー
+ </summary>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsUtil.ReadFile(System.String,System.Text.Encoding)">
+ <summary>
+ ファイル読み込み結果を返す
+ </summary>
+ <param name="fn">ファイルパス</param>
+ <param name="en">エンコーディング</param>
+ <returns>ファイル読み込み結果を返す</returns>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsUtil.ReadFile(System.String)">
+ <summary>
+ ファイル読み込み結果を返す
+ </summary>
+ <param name="fn">ファイル名</param>
+ <returns>ファイル読み込み結果を返す</returns>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsUtil.WriteFile(System.String,System.String,System.Boolean)">
+ <summary>
+ ファイル書き込み
+ </summary>
+ <param name="strData">書き込みデータ</param>
+ <param name="fn">書き込みファイル名</param>
+ <param name="bAppend">追加/新規：true/false</param>
+ <returns>0/0以外：OK/NG</returns>
+</member>
+<member name="M:ClassLibraryUtil.clsUtil.WriteFile(System.Collections.Generic.List{System.String},System.String,System.Boolean)">
+ <summary>
+ ファイル書き込み
+ </summary>
+ <param name="lst">書き込みデータ</param>
+ <param name="fn">書き込みファイル名</param>
+ <param name="bAppend">追加/新規：true/false</param>
+ <returns>0/0以外：OK/NG</returns>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsUtil.WriteFile(System.Text.StringBuilder,System.String,System.Boolean)">
+ <summary>
+ ファイル書き込み
+ </summary>
+ <param name="sb">書き込みデータ</param>
+ <param name="fn">書き込みファイル名</param>
+ <param name="bAppend">追加/新規：true/false</param>
+ <returns>0/0以外：OK/NG</returns>
+
+</member>
+<member name="M:ClassLibraryUtil.clsUtil.CreateDirectory(System.String)">
+ <summary>
+ ディレクトリ作成
+ </summary>
+ <param name="strPath">ディレクトリ名</param>
+ <returns>0/0以外：OK/NG</returns>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsUtil.CreateImage(System.String)">
+ <summary>
+ イメージ情報作成
+ </summary>
+ <param name="filename">画像ファイル名</param>
+ <returns>画像ファイルのイメージ情報</returns>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsUtil.ProcessName">
+ <summary>
+ カレントプロセス名取得
+ </summary>
+ <returns>プロセスイメージ名</returns>
+ 
+</member>
+<member name="M:ClassLibraryUtil.clsUtil.OpenFileDialog(System.String,System.String)">
+ <summary>
+ ファイル開くダイアログ
+ </summary>
+ <param name="filter">フィルター</param>
+ <param name="title">タイトル</param>
+ <returns>開く対象ファイル名</returns>
+ 
+</member>
+<member name="T:ClassLibraryUtil.Win32">
+ <summary>
+ WIN32メソッドオーバーラップ
+ </summary>
+ 
+</member>
+</members>
+</doc>
