@@ -58,19 +58,19 @@
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click, Button2.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Enable(False)
         Me.SendToBack()
-        'Me.WindowState = FormWindowState.Minimized
-        Me.BackgroundWorker1.RunWorkerAsync(IIf(sender Is Button1, 0, 1))
+        Me.BackgroundWorker1.RunWorkerAsync(0)
     End Sub
 
-    'Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-    '    Enable(False)
-    '    Me.SendToBack()
-    '    Me.WindowState = FormWindowState.Minimized
-    '    Me.BackgroundWorker1.RunWorkerAsync(1)
-    'End Sub
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Enable(False)
+        Me.SendToBack()
+        Me.BackgroundWorker1.RunWorkerAsync(1)
+    End Sub
+
+
     Private Sub BackgroundWorker1_DoWork(sender As Object, e As System.ComponentModel.DoWorkEventArgs) Handles BackgroundWorker1.DoWork
 
         Dim lCat As Long = CInt(e.Argument)
@@ -95,4 +95,6 @@
             t.Join()
         Next
     End Sub
+
+
 End Class

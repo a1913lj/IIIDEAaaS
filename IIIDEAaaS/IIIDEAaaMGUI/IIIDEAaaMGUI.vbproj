@@ -67,7 +67,7 @@
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -200,13 +200,11 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy /f /y .\*.exe ..\..\..\bin\*.*</PostBuildEvent>
+    <PostBuildEvent>xcopy /f /y .\*.exe ..\..\..\bin\*.*
+xcopy /f /y ..\..\..\\python\*.* ..\..\..\bin\*.*</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PreBuildEvent>xcopy /f /y ..\..\..\\python\cluster_*.py .\*.*
-xcopy /f /y ..\..\..\\python\janome_*.py .\*.*
-xcopy /f /y ..\..\..\\python\NLP_*.py .\*.*
-xcopy /f /y ..\..\..\\bin\iiidea_*.* .\*.*
+    <PreBuildEvent>xcopy /f /y ..\..\..\\python\*.* .\*.*
 xcopy /f /y ..\..\..\\bin\iiidea*.tmp .\*.*</PreBuildEvent>
   </PropertyGroup>
 </Project>

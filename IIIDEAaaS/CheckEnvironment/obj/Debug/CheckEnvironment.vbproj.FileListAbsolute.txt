@@ -1,0 +1,11 @@
+C:\pbl\IIIDEAaaS\CheckEnvironment\bin\Debug\CheckEnvironment.exe.config
+C:\pbl\IIIDEAaaS\CheckEnvironment\bin\Debug\CheckEnvironment.exe
+C:\pbl\IIIDEAaaS\CheckEnvironment\bin\Debug\CheckEnvironment.pdb
+C:\pbl\IIIDEAaaS\CheckEnvironment\bin\Debug\CheckEnvironment.xml
+C:\pbl\IIIDEAaaS\CheckEnvironment\obj\Debug\CheckEnvironment.vbprojAssemblyReference.cache
+C:\pbl\IIIDEAaaS\CheckEnvironment\obj\Debug\CheckEnvironment.Resources.resources
+C:\pbl\IIIDEAaaS\CheckEnvironment\obj\Debug\CheckEnvironment.vbproj.GenerateResource.cache
+C:\pbl\IIIDEAaaS\CheckEnvironment\obj\Debug\CheckEnvironment.vbproj.CoreCompileInputs.cache
+C:\pbl\IIIDEAaaS\CheckEnvironment\obj\Debug\CheckEnvironment.exe
+C:\pbl\IIIDEAaaS\CheckEnvironment\obj\Debug\CheckEnvironment.xml
+C:\pbl\IIIDEAaaS\CheckEnvironment\obj\Debug\CheckEnvironment.pdb

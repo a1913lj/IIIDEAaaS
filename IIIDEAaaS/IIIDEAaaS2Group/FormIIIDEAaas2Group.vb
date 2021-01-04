@@ -336,7 +336,8 @@ Public Class FormIIIDEAaaS2Group
         ComboBox3.SelectedIndex = 0
         Enable(False)
         Enable(True, {Me.Button1})
-        Me.Button1.Select()
+        Me.TopMost = True
+        Me.TopMost = False
     End Sub
 
     ''' <summary>

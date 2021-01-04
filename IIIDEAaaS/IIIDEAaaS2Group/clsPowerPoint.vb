@@ -40,10 +40,17 @@ Public Class clsPowerPoint
     End Sub
 
     Public Sub New()
-        m_oApp = New Microsoft.Office.Interop.PowerPoint.Application
-        With m_oApp
-            m_oPres = .Presentations
-        End With
+        Try
+            '$ExcApp = New-Object -ComObject PowerPoint.Application
+            m_oApp = New Microsoft.Office.Interop.PowerPoint.Application
+            With m_oApp
+                m_oPres = .Presentations
+            End With
+        Catch ex As Exception
+            MsgBox(ex.Message)
+            System.Environment.Exit(99)
+        End Try
+
     End Sub
     ''' <summary>
     ''' アンマネージリソースの開放

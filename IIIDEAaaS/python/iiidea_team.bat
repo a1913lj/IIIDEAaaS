@@ -12,7 +12,7 @@ REM %3 : RESULT
 python iiidea_clustering.py %2
 powershell Set-ExecutionPolicy RemoteSigned -Scope Process -Force
 powershell Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
-powershell -File %~dp0iiidea_teaming.ps1 %1 %3
+powershell -File iiidea_teaming.ps1 %1 %3
 
 REM PAUSE 
 
