@@ -218,7 +218,7 @@ Partial Class FormIIIDEAaaS2Group
         Me.MaximizeBox = False
         Me.Name = "FormIIIDEAaaS2Group"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "TH2020 IIIDEAAA - IIIDeaaas2Group グルーピング＆ラベリング"
+        Me.Text = "TH2020 IIIDEAAA - IIIDEAaaS2Group グルーピング＆ラベリング"
         Me.TopMost = True
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

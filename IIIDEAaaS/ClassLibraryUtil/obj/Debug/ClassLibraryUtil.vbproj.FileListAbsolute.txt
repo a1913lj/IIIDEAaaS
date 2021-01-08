@@ -8,3 +8,4 @@ C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.vbproj.CoreCompileI
 C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.dll
 C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.xml
 C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.pdb
+C:\pbl\IIIDEAaaS\ClassLibraryUtil\obj\Debug\ClassLibraryUtil.vbprojAssemblyReference.cache

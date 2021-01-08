@@ -455,7 +455,7 @@ Partial Class FormIIIDEAaaSTeams
         Me.MaximizeBox = False
         Me.Name = "FormIIIDEAaaSTeams"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "TH2020 IIIDEAAA - IIIdeaaa2Teams"
+        Me.Text = "TH2020 IIIDEAAA - IIIDEAaaS2Teams"
         Me.TabControl1.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

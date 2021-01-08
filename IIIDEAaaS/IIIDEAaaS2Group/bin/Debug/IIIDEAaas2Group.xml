@@ -2,54 +2,54 @@
 <doc>
 <assembly>
 <name>
-IIIDEAaas2Group
+IIIDEAaaS2Group
 </name>
 </assembly>
 <members>
-<member name="T:IIIDEAaas2Group.My.Resources.Resources">
+<member name="T:IIIDEAaaS2Group.My.Resources.Resources">
 <summary>
   ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
 </summary>
 </member>
-<member name="P:IIIDEAaas2Group.My.Resources.Resources.ResourceManager">
+<member name="P:IIIDEAaaS2Group.My.Resources.Resources.ResourceManager">
 <summary>
   このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
 </summary>
 </member>
-<member name="P:IIIDEAaas2Group.My.Resources.Resources.Culture">
+<member name="P:IIIDEAaaS2Group.My.Resources.Resources.Culture">
 <summary>
   すべてについて、現在のスレッドの CurrentUICulture プロパティをオーバーライドします
   現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
 </summary>
 </member>
-<member name="T:IIIDEAaas2Group.clsPowerPoint">
+<member name="T:IIIDEAaaS2Group.clsPowerPoint">
  <summary>
  POWERPOINT処理クラス
  </summary>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.MRC(System.Object)">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.MRC(System.Object)">
  <summary>
  アンマネージリソースの開放
  </summary>
  <param name="obj">オブジェクト</param>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.MRC(System.Collections.Generic.List{System.Object})">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.MRC(System.Collections.Generic.List{System.Object})">
  <summary>
  アンマネージリソースの開放
  </summary>
  <param name="objLst">オブジェクト</param>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.MRC(System.Object[])">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.MRC(System.Object[])">
  <summary>
  アンマネージリソースの開放
  </summary>
  <param name="objs">オブジェクト</param>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.RdPptx(Microsoft.Office.Interop.PowerPoint.Presentation)">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.RdPptx(Microsoft.Office.Interop.PowerPoint.Presentation)">
  <summary>
  POWERPOINT処理、SHAPE一覧取得（テキスト関連のみ）
  </summary>
@@ -57,7 +57,7 @@ IIIDEAaas2Group
  <returns>SHAPE一覧を辞書型返す</returns>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.RdOpen(System.String)">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.RdOpen(System.String)">
  <summary>
  POWERPOINT読み込み処理
  </summary>
@@ -65,7 +65,7 @@ IIIDEAaas2Group
  <returns>true/false</returns>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.RdPptx(System.String)">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.RdPptx(System.String)">
  <summary>
  POWERPOINT読み込み処理
  </summary>
@@ -73,13 +73,13 @@ IIIDEAaas2Group
  <returns>SHAPE一覧を辞書型返す</returns>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.shuffle">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.shuffle">
  <summary>
  shapeごちゃ混ぜ
  </summary>
  <returns>0/1:OK/NG</returns>
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.Align(Microsoft.Office.Interop.PowerPoint.Slide,System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{ClassLibraryUtil.clsCluster.clsShape}},System.Int32,System.Int64)">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.Align(Microsoft.Office.Interop.PowerPoint.Slide,System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{ClassLibraryUtil.clsCluster.clsShape}},System.Int32,System.Int64)">
  <summary>
  グルーピング
  </summary>
@@ -90,7 +90,7 @@ IIIDEAaas2Group
  <returns></returns>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.Labeling(Microsoft.Office.Interop.PowerPoint.Slide,Microsoft.Office.Interop.PowerPoint.Shape,System.String)">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.Labeling(Microsoft.Office.Interop.PowerPoint.Slide,Microsoft.Office.Interop.PowerPoint.Shape,System.String)">
  <summary>
  ラベリング処理
  </summary>
@@ -100,7 +100,7 @@ IIIDEAaas2Group
  <returns>ラベリングのシェイプ情報作成</returns>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.Labeling(Microsoft.Office.Interop.PowerPoint.Slide,System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.KeyValuePair{System.String,System.Collections.Generic.List{ClassLibraryUtil.clsCluster.clsShape}}})">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.Labeling(Microsoft.Office.Interop.PowerPoint.Slide,System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.KeyValuePair{System.String,System.Collections.Generic.List{ClassLibraryUtil.clsCluster.clsShape}}})">
  <summary>
  ラベリング処理
  </summary>
@@ -109,7 +109,7 @@ IIIDEAaas2Group
  <returns>ラベリング一覧辞書情報</returns>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.Labeling(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.KeyValuePair{System.String,System.Collections.Generic.List{ClassLibraryUtil.clsCluster.clsShape}}}},System.Int64)">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.Labeling(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.KeyValuePair{System.String,System.Collections.Generic.List{ClassLibraryUtil.clsCluster.clsShape}}}},System.Int64)">
  <summary>
  ラベリング処理
  </summary>
@@ -118,25 +118,25 @@ IIIDEAaas2Group
  <returns>ラベリング一覧辞書情報</returns>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.Delete(System.Collections.Generic.List{Microsoft.Office.Interop.PowerPoint.Shape})">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.Delete(System.Collections.Generic.List{Microsoft.Office.Interop.PowerPoint.Shape})">
  <summary>
  シェイプ削除
  </summary>
  <param name="objs">オブジェクト（シェイプ情報）</param>
  
 </member>
-<member name="M:IIIDEAaas2Group.clsPowerPoint.DeleteLabel">
+<member name="M:IIIDEAaaS2Group.clsPowerPoint.DeleteLabel">
  <summary>
  ラベリング削除
  </summary>
  
 </member>
-<member name="T:IIIDEAaas2Group.FormIIIDEAaaS2Group">
+<member name="T:IIIDEAaaS2Group.FormIIIDEAaaS2Group">
  <summary>
  グルーピングメイン画面
  </summary>
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Button1_Click(System.Object,System.EventArgs)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.Button1_Click(System.Object,System.EventArgs)">
  <summary>
  PPTX選択
  </summary>
@@ -144,7 +144,7 @@ IIIDEAaas2Group
  <param name="e"></param>
  
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Enable(System.Boolean,System.Windows.Forms.Control[]@)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.Enable(System.Boolean,System.Windows.Forms.Control[]@)">
  <summary>
  ボタンの活性化
  </summary>
@@ -152,14 +152,14 @@ IIIDEAaas2Group
  <param name="objs"></param>
  
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.RdPptx(System.String)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.RdPptx(System.String)">
  <summary>
  ボタンの活性化
  </summary>
  <param name="fn"></param>
  <returns>PPTXの入力情報</returns>
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Detail(System.Object,System.String)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.Detail(System.Object,System.String)">
  <summary>
  ログ出力
  </summary>
@@ -167,14 +167,14 @@ IIIDEAaas2Group
  <param name="strText"></param>
  
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Detail(System.String)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.Detail(System.String)">
  <summary>
  ログ出力
  </summary>
  <param name="strText"></param>
  
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.CreateElement(System.Xml.XmlDocument,System.Collections.Generic.KeyValuePair{System.String,System.String})">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.CreateElement(System.Xml.XmlDocument,System.Collections.Generic.KeyValuePair{System.String,System.String})">
  <summary>
  XMLエレメント作成
  </summary>
@@ -182,7 +182,7 @@ IIIDEAaas2Group
  <param name="key"></param>
  <returns>XmlElement</returns>
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.CreateElement(System.Xml.XmlDocument,System.String,System.String)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.CreateElement(System.Xml.XmlDocument,System.String,System.String)">
  <summary>
  XMLエレメント作成
  </summary>
@@ -191,28 +191,28 @@ IIIDEAaas2Group
  <param name="strValue"></param>
  <returns>XmlElement</returns>
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.GetClusterFileName(System.String)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.GetClusterFileName(System.String)">
  <summary>
  XMLエレメント作成
  </summary>
  <param name="strExtension"></param>
  <returns>ファイル名を返す</returns>
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Rectangle2Text(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}})">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.Rectangle2Text(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}})">
  <summary>
  >PPTXのテキストボックスの情報を文字列生成、クラスリング用
  </summary>
  <param name="dic"></param>
  <returns>PPTXのテキストボックスの情報を文字列を返す</returns>
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Rectangle2Xml(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}})">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.Rectangle2Xml(System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}})">
  <summary>
  >PPTXのテキストボックスの情報を文字列生成、クラスリング用
  </summary>
  <param name="dic"></param>
  <returns>PPTXのテキストボックスの情報を文字列を返す</returns>
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Grouping(System.String,System.Int64,System.Int64)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.Grouping(System.String,System.Int64,System.Int64)">
  <summary>
  グルーピング処理
  </summary>
@@ -221,14 +221,14 @@ IIIDEAaas2Group
  <param name="lcolumn">スライド上グルーピング処理の列数</param>
  
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.Labeling(System.String)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.Labeling(System.String)">
  <summary>
  ラベリング処理
  </summary>
  <param name="strCategory">MeCab/Janome</param>
  
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.ButtonGrouping_Click(System.Object,System.EventArgs)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.ButtonGrouping_Click(System.Object,System.EventArgs)">
  <summary>
  グルーピング処理、バックグラウンド実行
  </summary>
@@ -236,7 +236,7 @@ IIIDEAaas2Group
  <param name="e"></param>
  
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.ButtonLabeling_Click(System.Object,System.EventArgs)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.ButtonLabeling_Click(System.Object,System.EventArgs)">
  <summary>
  ラベリング処理、バックグラウンド実行
  </summary>
@@ -244,7 +244,7 @@ IIIDEAaas2Group
  <param name="e"></param>
  
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.BackgroundWorker1_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.BackgroundWorker1_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
  <summary>
  バックグラウンド処理：グルーピング/ラベリング
  </summary>
@@ -252,7 +252,7 @@ IIIDEAaas2Group
  <param name="e"></param>
  
 </member>
-<member name="M:IIIDEAaas2Group.FormIIIDEAaaS2Group.BackgroundWorker1_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+<member name="M:IIIDEAaaS2Group.FormIIIDEAaaS2Group.BackgroundWorker1_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
  <summary>
  バックグラウンド完了通知、画面活性化
  </summary>

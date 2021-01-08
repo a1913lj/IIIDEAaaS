@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7F2259BB-420D-4580-BDEF-6AB968BBA28B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>IIIDEAaas2Teams.My.MyApplication</StartupObject>
-    <RootNamespace>IIIDEAaas2Teams</RootNamespace>
-    <AssemblyName>IIIDEAaas2Teams</AssemblyName>
+    <StartupObject>IIIDEAaaS2Teams.My.MyApplication</StartupObject>
+    <RootNamespace>IIIDEAaaS2Teams</RootNamespace>
+    <AssemblyName>IIIDEAaaS2Teams</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>IIIDEAaas2Teams.xml</DocumentationFile>
+    <DocumentationFile>IIIDEAaaS2Teams.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>IIIDEAaas2Teams.xml</DocumentationFile>
+    <DocumentationFile>IIIDEAaaS2Teams.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>

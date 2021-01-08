@@ -83,7 +83,7 @@
 
     Private Sub BackgroundWorker1_RunWorkerCompleted(sender As Object, e As System.ComponentModel.RunWorkerCompletedEventArgs) Handles BackgroundWorker1.RunWorkerCompleted
         Enable(True)
-        'Me.WindowState = FormWindowState.Normal
+        Me.WindowState = FormWindowState.Normal
         Me.Activate()
         Me.TopMost = True
         Me.TopMost = False

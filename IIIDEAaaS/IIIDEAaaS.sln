@@ -11,6 +11,21 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IIIDEAaas2Group", "IIIDEAaa
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IIIDEAaaMGUI", "IIIDEAaaMGUI\IIIDEAaaMGUI.vbproj", "{B3C2FCAB-6F9A-4429-BD88-F96F30D26924}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pyhton", "pyhton", "{D5C68DD3-A1B2-420A-80C1-4444799116D1}"
+	ProjectSection(SolutionItems) = preProject
+		python\cluster_ver.0.10.0.py = python\cluster_ver.0.10.0.py
+		python\iiidea_clustering.py = python\iiidea_clustering.py
+		python\iiidea_team.bat = python\iiidea_team.bat
+		python\iiidea_teaming.ps1 = python\iiidea_teaming.ps1
+		python\janome_ver0.10.0.py = python\janome_ver0.10.0.py
+		python\NLP_VER0.10.0.py = python\NLP_VER0.10.0.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{89B1B995-8E73-4006-942D-45C8AA21B2E0}"
+	ProjectSection(SolutionItems) = preProject
+		bin\iiidea_result.tmp = bin\iiidea_result.tmp
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

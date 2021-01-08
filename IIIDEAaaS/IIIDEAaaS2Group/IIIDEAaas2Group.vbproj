@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5F08A9DF-2F7C-419D-91CD-671EB7F8BCBC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>IIIDEAaas2Group.My.MyApplication</StartupObject>
-    <RootNamespace>IIIDEAaas2Group</RootNamespace>
-    <AssemblyName>IIIDEAaas2Group</AssemblyName>
+    <StartupObject>IIIDEAaaS2Group.My.MyApplication</StartupObject>
+    <RootNamespace>IIIDEAaaS2Group</RootNamespace>
+    <AssemblyName>IIIDEAaaS2Group</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -36,7 +36,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>IIIDEAaas2Group.xml</DocumentationFile>
+    <DocumentationFile>IIIDEAaaS2Group.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -46,7 +46,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>IIIDEAaas2Group.xml</DocumentationFile>
+    <DocumentationFile>IIIDEAaaS2Group.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
