@@ -15,3 +15,4 @@ C:\pbl\IIIDEAaaS\IIIDEAaaS2Group\obj\Debug\IIIDEAaas2Group.vbproj.CopyComplete
 C:\pbl\IIIDEAaaS\IIIDEAaaS2Group\obj\Debug\IIIDEAaaS2Group.exe
 C:\pbl\IIIDEAaaS\IIIDEAaaS2Group\obj\Debug\IIIDEAaaS2Group.xml
 C:\pbl\IIIDEAaaS\IIIDEAaaS2Group\obj\Debug\IIIDEAaaS2Group.pdb
+C:\PBL\IIIDEAaaS\IIIDEAaaS2Group\obj\Debug\Interop.ONAddInForPPT.dll

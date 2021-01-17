@@ -34,7 +34,7 @@ Partial Class FormDetail
         Me.Label1.ForeColor = System.Drawing.Color.Red
         Me.Label1.Location = New System.Drawing.Point(-5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(613, 65)
+        Me.Label1.Size = New System.Drawing.Size(990, 65)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "チーム分け処理中..."
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -47,7 +47,7 @@ Partial Class FormDetail
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(610, 67)
+        Me.ClientSize = New System.Drawing.Size(986, 67)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
